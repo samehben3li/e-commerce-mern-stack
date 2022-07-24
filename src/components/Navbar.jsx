@@ -43,6 +43,10 @@ const Logo = styled.h1`
 
 const Right = styled.div`
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
 `
 const MenuItem = styled.div`
     font-size: 14px;
@@ -61,11 +65,11 @@ const Navbar = () => {
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>Shop .</Logo>
+                    <Logo>TheKnower Shop .</Logo>
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
-                    <MenuItem>SIGN IN</MenuItem>
+                    <MenuItem>LOG IN</MenuItem>
                     <MenuItem></MenuItem>
                 </Right>
             </Wrapper>
